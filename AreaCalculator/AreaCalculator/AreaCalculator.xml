@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AreaCalculator</name>
+    </assembly>
+    <members>
+        <member name="T:AreaCalculator.Calculator">
+            <summary>
+            Class, provides calculate shapes area
+            </summary>
+        </member>
+        <member name="M:AreaCalculator.Calculator.GetCircleArea(System.Double)">
+            <summary>
+            Get circle area by radius
+            </summary>
+            <param name="radius"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AreaCalculator.Calculator.GetTriangleArea(System.Double,System.Double,System.Double)">
+            <summary>
+            Get triangle area by three sides
+            </summary>
+            <param name="ab"></param>
+            <param name="bc"></param>
+            <param name="ca"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AreaCalculator.Calculator.IsRightTriangle(System.Double,System.Double,System.Double)">
+            <summary>
+            Check is right triangle
+            </summary>
+            <param name="ab"></param>
+            <param name="bc"></param>
+            <param name="ca"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AreaCalculator.Calculator.GetArea(AreaCalculator.Shapes.IShape)">
+            <summary>
+            Get area from class implemented IShape
+            </summary>
+            <param name="shape"></param>
+            <returns></returns>
+        </member>
+        <member name="T:AreaCalculator.Helpers.CommonHelper">
+            <summary>
+            Helper for common functions
+            </summary>
+        </member>
+        <member name="T:AreaCalculator.Shapes.Circle">
+            <summary>
+            Cirle shape
+            </summary>
+        </member>
+        <member name="P:AreaCalculator.Shapes.Circle.Radius">
+            <summary>
+            Get/Set radius property
+            </summary>
+        </member>
+        <member name="M:AreaCalculator.Shapes.Circle.#ctor">
+            <summary>
+            Constructor without arguments. Use redius = 1 by default
+            </summary>
+        </member>
+        <member name="M:AreaCalculator.Shapes.Circle.#ctor(System.Double)">
+            <summary>
+            Constructor with radius param
+            </summary>
+            <param name="radius"></param>
+        </member>
+        <member name="M:AreaCalculator.Shapes.Circle.GetArea">
+            <summary>
+            Get Area
+            </summary>
+            <returns>Triangle area</returns>
+        </member>
+        <member name="T:AreaCalculator.Shapes.IShape">
+            <summary>
+            Shapes interface
+            </summary>
+        </member>
+        <member name="M:AreaCalculator.Shapes.IShape.GetArea">
+            <summary>
+            Get shape area method
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:AreaCalculator.Shapes.Triangle">
+            <summary>
+            Triangle shape
+            </summary>
+        </member>
+        <member name="P:AreaCalculator.Shapes.Triangle.AB">
+            <summary>
+            One of three sides
+            </summary>
+        </member>
+        <member name="P:AreaCalculator.Shapes.Triangle.BC">
+            <summary>
+            One of three sides
+            </summary>
+        </member>
+        <member name="P:AreaCalculator.Shapes.Triangle.CA">
+            <summary>
+            One of three sides
+            </summary>
+        </member>
+        <member name="M:AreaCalculator.Shapes.Triangle.#ctor">
+            <summary>
+            Constructor without arguments. Use sides length = 1 by default
+            </summary>
+        </member>
+        <member name="M:AreaCalculator.Shapes.Triangle.#ctor(System.Double,System.Double,System.Double)">
+            <summary>
+            Constructor with sides length params
+            </summary>
+            <param name="ab"></param>
+            <param name="bc"></param>
+            <param name="ca"></param>
+        </member>
+        <member name="M:AreaCalculator.Shapes.Triangle.GetArea">
+            <summary>
+            Get Area
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AreaCalculator.Shapes.Triangle.IsRightTriangle">
+            <summary>
+            Get Area
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AreaCalculator.Shapes.Triangle.GetPerimeter">
+            <summary>
+            Get triangle perimeter
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AreaCalculator.Shapes.Triangle.CheckTriangleExistence">
+            <summary>
+            Chek triangle existence
+            </summary>
+        </member>
+        <member name="M:AreaCalculator.Shapes.Triangle.IsRightTriangleBySides(System.Double,System.Double,System.Double)">
+            <summary>
+            Chek triangle existence
+            </summary>
+        </member>
+    </members>
+</doc>
