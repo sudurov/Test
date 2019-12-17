@@ -8,7 +8,7 @@ namespace AreaCalculator
     public static class Calculator
     {
         /// <summary>
-        /// Get circle area by radius
+        /// Get circle area by radius test
         /// </summary>
         /// <param name="radius"></param>
         /// <returns></returns>
